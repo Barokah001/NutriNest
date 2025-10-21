@@ -97,13 +97,15 @@ const Navbar = (props: NavbarProps) => {
         <Button
           name="Login"
           className={
-            "bg-white border-1 text-[#1C1E26] border-[#1C1E26] hover:bg-[#1C1E26]"
+            "bg-white border-1 text-[#1C1E26] border-[#1C1E26] hover:bg-[#1C1E26] hover:text-[#ffffff]"
           }
         />
 
         <Button
           name="SignUp"
-          className={"bg-[#1C1E26] border-1 border-[#1C1E26] hover:bg-white"}
+          className={
+            "bg-[#1C1E26] text-[#ffffff] border-1 border-[#1C1E26] hover:bg-white hover:text-[#1C1E26]"
+          }
         />
       </div>
 
