@@ -27,7 +27,7 @@ const Navbar = (props: NavbarProps) => {
     >
       <div className="flex gap-1 justify-center items-center">
         <img src="/images/Logo..png" />
-        <h1 className="text-2xl font-bold text-[#1C1E26]">NutriNest</h1>
+        <h1 className="text-2xl font-bold text-blue-950">NutriNest</h1>
       </div>
 
       <div className="hidden md:flex justify-between gap-5 items-center">
@@ -97,14 +97,14 @@ const Navbar = (props: NavbarProps) => {
         <Button
           name="Login"
           className={
-            "bg-white border-1 text-[#1C1E26] border-[#1C1E26] hover:bg-[#1C1E26] hover:text-[#ffffff]"
+            "bg-white border-1 text-blue-950 border-blue-950 hover:bg-blue-950 hover:text-[#ffffff]"
           }
         />
 
         <Button
           name="SignUp"
           className={
-            "bg-[#1C1E26] text-[#ffffff] border-1 border-[#1C1E26] hover:bg-white hover:text-[#1C1E26]"
+            "bg-blue-950 text-[#ffffff] border-1 border-blue-950 hover:bg-white hover:text-blue-950"
           }
         />
       </div>
