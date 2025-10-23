@@ -53,38 +53,36 @@ const CardInput = ({
 
 
   return (
-    <div className="flex flex-col items-center bg-blue-50 p-4 rounded-2xl shadow-md w-40">
-      <p className="text-blue-950 font-semibold text-normal mb-1">{label}</p>
+      <div className="flex flex-col items-center bg-blue-50 p-4 rounded-2xl shadow-md w-40">
+        <p className="text-blue-950 font-semibold text-normal mb-1">{label}</p>
 
-      <input
-        type="number"
-        value={value}
-        onChange={handleChange}
-        className="text-4xl font-semibold text-blue-950 bg-transparent text-center w-full outline-none appearance-none"
-        inputMode="decimal"
-        pattern="[0-9]*"
-      />
+        <input
+          type="number"
+          value={value}
+          onChange={handleChange}
+          className="text-4xl font-semibold text-blue-950 bg-transparent text-center w-full outline-none appearance-none"
+          inputMode="decimal"
+          pattern="[0-9]*"
+        />
 
-      <div className="flex gap-4 mt-2">
-        <button
-          onClick={decrement}
-          type="button"
-          className="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow hover:bg-gray-100"
-        >
-          <Minus className="w-4 h-4 text-blue-950" />
-        </button>
+        <div className="flex gap-4 mt-2">
+          <button
+            onClick={decrement}
+            type="button"
+            className="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow hover:bg-gray-100"
+          >
+            <Minus className="w-4 h-4 text-blue-950" />
+          </button>
 
-        <button
-          onClick={increment}
-          type="button"
-          className="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow hover:bg-gray-100"
-        >
-          <Plus className="w-4 h-4 text-blue-950" />
-        </button>
+          <button
+            onClick={increment}
+            type="button"
+            className="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow hover:bg-gray-100"
+          >
+            <Plus className="w-4 h-4 text-blue-950" />
+          </button>
+        </div>
       </div>
-
-      
-    </div>
   );
 };
 

@@ -11,7 +11,7 @@ const GenderCard = ({ gender, setGender }: GenderProps) => {
       <button
         onClick={() => setGender("male")}
         className={`flex flex-col items-center p-4 rounded-2xl shadow-md w-40 transition-all ${
-          gender === "male" ? "bg-green-100" : "bg-[#faf4ee]"
+          gender === "male" ? "bg-blue-100" : "bg-blue-50"
         }`}
       >
         <Mars className="w-8 h-8 text-blue-600 mb-1" />
@@ -21,7 +21,7 @@ const GenderCard = ({ gender, setGender }: GenderProps) => {
       <button
         onClick={() => setGender("female")}
         className={`flex flex-col items-center p-4 rounded-2xl shadow-md w-40 transition-all ${
-          gender === "female" ? "bg-pink-100" : "bg-[#faf4ee]"
+          gender === "female" ? "bg-pink-100" : "bg-pink-50"
         }`}
       >
         <Venus className="w-8 h-8 text-pink-600 mb-1" />
