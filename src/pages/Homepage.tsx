@@ -2,6 +2,7 @@
 import Button from '../components/Button';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
+import BMICalc from './BMICalc';
 
 const Homepage = () => {
   return (
@@ -116,7 +117,7 @@ const Homepage = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center px-15 md:px-20 bg-blue-50 py-10 gap-8">
-        <div className=" flex items-end gap-7">
+        <div className=" flex items-end gap-7 w-1/2">
           <img
             src="/images/nutritionistThree.jpg"
             alt=""
@@ -128,7 +129,7 @@ const Homepage = () => {
             className="rounded-xl w-1/2 h-[380px]"
           />
         </div>
-        <div className="flex flex-col gap-4 justify-center items-start ">
+        <div className="flex flex-col gap-4 justify-center items-start w-1/3 text-align">
           <h3 className="text-blue-800 font-semibold text-normal">
             Who we are
           </h3>
@@ -151,6 +152,7 @@ const Homepage = () => {
         </div>
       </div>
 
+      <BMICalc />
 
       <Footer />
     </>
