@@ -41,11 +41,11 @@ const Homepage = () => {
             </div>
             <div className="absolute bottom-7 left-6 flex flex-col gap-3">
               <h3 className="font-bold text-blue-900">
-                Personalized Meal Recommendation
+                Personalized Meal Plans
               </h3>
               <h1 className="text-normal font-semibold text-gray-500">
-                Analyze your BMI, track progress, and receive AI-curated meal
-                plans that match your health goals.
+                Custom nutrition plans tailored to your goals, preferences, and
+                dietary restrictions.
               </h1>
             </div>
           </div>
@@ -89,10 +89,10 @@ const Homepage = () => {
               />
             </div>
             <div className="absolute bottom-7 left-6 flex flex-col gap-3">
-              <h3 className="font-bold text-blue-900">Track Record</h3>
+              <h3 className="font-bold text-blue-900">Progress Tracking</h3>
               <h1 className="text-normal font-semibold text-gray-500">
-                Analyze your BMI, track progress, and receive AI-curated meal
-                plans that match your health goals.
+                Monitor your progress with comprehensive tracking tools and
+                detailed analytics.
               </h1>
             </div>
           </div>
@@ -106,10 +106,10 @@ const Homepage = () => {
               />
             </div>
             <div className="absolute bottom-7 left-6 flex flex-col gap-3">
-              <h3 className="font-bold text-blue-900">Services</h3>
+              <h3 className="font-bold text-blue-900">Expert Gauidance</h3>
               <h1 className="text-normal font-semibold text-gray-400">
-                Analyze your BMI, track progress, and receive AI-curated meal
-                plans that match your health goals.
+                Connect with certified nutritionists and dietitians for
+                professional support.
               </h1>
             </div>
           </div>

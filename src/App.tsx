@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard'
 import About from './pages/About';
 import SignUp from './pages/SignUp';
 import BMICalc from './pages/BMICalc';
+import Login from './pages/Login';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/signup' element={<SignUp />}/>
         <Route path='/bmicalc' element={<BMICalc />}/>
+        <Route path='/login' element={<Login />}/>
       </Routes>
       </BrowserRouter>
     </>

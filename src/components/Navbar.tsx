@@ -94,19 +94,23 @@ const Navbar = (props: NavbarProps) => {
       </div>
 
       <div className="flex justify-center items-center gap-3">
+        <NavLink to="/login">
         <Button
           name="Login"
           className={
             "bg-white border-1 text-blue-950 border-blue-950 hover:bg-blue-950 hover:text-[#ffffff]"
           }
         />
+        </NavLink>
 
-        <Button
-          name="SignUp"
-          className={
-            "bg-blue-950 text-[#ffffff] border-1 border-blue-950 hover:bg-white hover:text-blue-950"
-          }
-        />
+        <NavLink to="/signup">
+          <Button
+            name="SignUp"
+            className={
+              "bg-blue-950 text-[#ffffff] border-1 border-blue-950 hover:bg-white hover:text-blue-950"
+            }
+          />
+        </NavLink>
       </div>
 
       {/* <div

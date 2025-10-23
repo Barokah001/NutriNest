@@ -55,7 +55,7 @@ const BMICalc = () => {
         Calculate BMI
       </button>
 
-      {/* ✅ Result Overlay */}
+      {/*  Result Overlay */}
       {showResult && (
         <ResultOverlay
           weight={weight}
